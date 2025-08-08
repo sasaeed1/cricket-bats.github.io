@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Premium Cricket Bats Online | CricketGearHub</title>
+    <meta name="description" content="Shop top-quality cricket bats online at CricketGearHub. Find English Willow, Kashmir Willow, and tape ball bats at the best prices with fast delivery.">
+    <meta name="keywords" content="cricket bats, buy cricket bats online, English Willow bats, cricket equipment, best cricket bats">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourwebsite.com/cricket-bats">
+    <meta name="author" content="CricketGearHub">
+    <!-- Schema Markup for Products -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "Elite Pro English Willow Bat",
+          "image": "bat1.jpg",
+          "description": "Premium English Willow bat for professional players.",
+          "offers": {
+            "@type": "Offer",
+            "price": "150000",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PowerHit Tape Ball Bat",
+          "image": "bat2.jpg",
+          "description": "Durable tape ball bat for casual and indoor cricket.",
+          "offers": {
+            "@type": "Offer",
+            "price": "5000",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7fa;
+        }
+        /* Navbar */
+        nav {
+            background-color: #1a7c80;
+            padding: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav .logo {
+            font-size: 1.8rem;
+            color: #fff;
+            font-weight: 600;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            font-size: 1.3rem;
+            margin: 1rem;
+            color: #2c3e50;
+        }
+        .product-card p {
+            font-size: 1rem;
+            color: #e74c3c;
+            margin: 0 1rem 1rem;
+        }
+        .product-card button {
+            background-color: #f39c12;
+            color: #fff;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 1rem;
+            width: calc(100% - 2rem);
+            transition: transform 0.2s;
+        }
+        .product-card button:hover {
+            background-color: #e67e22;
+            transform: scale(1.05);
+        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">CricketGearHub</div>
+        <div>
+            <a href="/">Home</a>
+            <a href="/cricket-bats">Cricket Bats</a>
+            <a href="/gear">Gear</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+    <section class="product-grid">
+        <div class="product-card">
+            <img src="bat1.jpg" alt="Elite Pro English Willow Cricket Bat">
+            <h3>Elite Pro English Willow Bat</h3>
+            <p>PKR 150,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="bat2.jpg" alt="PowerHit Tape Ball Cricket Bat">
+            <h3>PowerHit Tape Ball Bat</h3>
+            <p>PKR 5,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Add more product cards as needed -->
+    </section>
+</body>
+</html>
